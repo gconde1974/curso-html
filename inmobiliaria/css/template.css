@@ -1,0 +1,33 @@
+html{font-size: 62.5%;box-sizing: border-box;}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+h1{font-size: 3.8rem;}
+h2{font-size: 3.4rem}
+h3{font-size: 3rem}
+h4{font-size: 2.6rem}
+img{max-width: 100%;}
+.fw300{font-weight: 300;}
+.txt-center{text-align: center;}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.navegacion a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+.navegacion a:hover{color: #71b100;}
+.navegacion a:last-of-type{margin: 0;}
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.d-block{display: block !important;}
+.btn{color: white; font-weight: 700; text-decoration: none; font-size: 1.8rem; padding: 1rem 3rem;margin-top: 3rem; text-align: center;}
+.btn-verde{background: #71b100;}
+.btn-amarillo{background: #e08709;}
