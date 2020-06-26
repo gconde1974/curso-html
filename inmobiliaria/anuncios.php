@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices | Tutorial 01</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-</head>
+<?php include('includes/head.inc.php'); ?>
+
 <body>
     <header class="site-header ">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/"><img src="img/logo.svg" alt="logotipo"></a>
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">anuncios</a>
-                    <a href="blog.html">blog</a>
-                    <a href="contacto.html">contacto</a>
-                </nav>
+                <a href="/curso-html/inmobiliaria/"><img src="img/logo.svg" alt="logotipo"></a>
+                <?php include('includes/nav.inc.php'); ?>
             </div>
-            
         </div>
     </header>
 
@@ -114,16 +101,4 @@
         </div>
     </main>
     
-    <footer class="site-footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">anuncios</a>
-                <a href="blog.html">blog</a>
-                <a href="contacto.html">contacto</a>
-            </nav>
-            <p class="copyright">Todos los derechos resevados 2020</p>
-        </div>
-    </footer>
-</body>
-</html>
+    <?php include('includes/footer.inc.php');?>

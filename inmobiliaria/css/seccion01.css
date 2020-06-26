@@ -42,3 +42,5 @@
 
 .contenido-centrado{max-width: 800px;text-align: justify;}
 .resumen-propiedad{display: flex;justify-content: space-between;align-items: center;}
+
+label{display: block;}

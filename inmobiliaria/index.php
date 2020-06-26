@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes Raices | Tutorial 01</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-</head>
+<?php include('includes/head.inc.php'); ?>
+
 <body>
     <header class="site-header inicio">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/"><img src="img/logo.svg" alt="logotipo"></a>
-                <nav class="navegacion">
-                    <a href="nosotros.html">Nosotros</a>
-                    <a href="anuncios.html">anuncios</a>
-                    <a href="blog.html">blog</a>
-                    <a href="contacto.html">contacto</a>
-                </nav>
+                <a href="/curso-html/inmobiliaria/"><img src="img/logo.svg" alt="logotipo"></a>
+                <?php include('includes/nav.inc.php'); ?>
             </div>
             <h1>Venta de casas y departamentos Exclusivos de lujo</h1>
         </div>
@@ -116,7 +104,7 @@
                     <img src="img/blog1.jpg" alt="">
                 </div>
                 <div class="txt-entrada">
-                    <a href="#"><h4>Terraza en el techo de tu casa</h4></a>
+                    <a href="blog-individual.php"><h4>Terraza en el techo de tu casa</h4></a>
                     <p>Escrito el: <span>19/06/2020</span> por: <span>Admin</span></p>
                     <p>Maecenas dapibus eros sed dictum venenatis. Cras ac quam tortor. Nam dignissim et velit facilisis sollicitudin.</p>
                 </div>
@@ -126,7 +114,7 @@
                     <img src="img/blog2.jpg" alt="">
                 </div>
                 <div class="txt-entrada">
-                    <a href="#"><h4>Guia para la decoracion de tu hogar</h4></a>
+                    <a href="blog-individual.php"><h4>Guia para la decoracion de tu hogar</h4></a>
                     <p>Escrito el: <span>19/06/2020</span> por: <span>Admin</span></p>
                     <p>Maecenas dapibus eros sed dictum venenatis. Cras ac quam tortor. Nam dignissim et velit facilisis sollicitudin.</p>
                 </div>
@@ -142,16 +130,4 @@
         </section>
     </div>
     
-    <footer class="site-footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">anuncios</a>
-                <a href="blog.html">blog</a>
-                <a href="contacto.html">contacto</a>
-            </nav>
-            <p class="copyright">Todos los derechos resevados 2020</p>
-        </div>
-    </footer>
-</body>
-</html>
+    <?php include('includes/footer.inc.php');?>
