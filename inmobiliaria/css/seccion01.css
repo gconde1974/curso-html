@@ -1,64 +1,44 @@
-.site-header.inicio{
-    background: url('../img/header.jpg') center center;
-    background-size: cover;
-    height: 100vh;
-    min-height: 60rem;
-}
-.contenido-header{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.barra{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-top: 3rem;
-}
-.contenido-header h1{
-    color: white;
-    padding-bottom: 10rem;
-    max-width: 60rem;
-    line-height: 1.5;
-}
-.iconos-nosotros{
-    display: flex;
-    justify-content: space-between;
-}
-.icono{
-    flex-basis: 33.33%;
-    padding: 1rem;
-    text-align: center;
-}
-.icono h3{
-    text-transform: uppercase;
-}
-.contenedor-anuncios{
-    display: flex;
-    justify-content: space-between;
-}
-.anuncio{
-    flex-basis: 33.33%;
-    margin: 1rem;
-    border: 1px solid #b5b5b5;
-    background: #f5f5f5;
-}
-.contenido-anuncio{
-    padding: 2rem;
-}
+.site-header{background: #333; padding: 1rem 0 3rem 0;}
+.site-header.inicio{background: url('../img/header.jpg') center center;background-size: cover;height: 100vh;min-height: 60rem;}
+.contenido-header{height: 100%;display: flex;flex-direction: column;justify-content: space-between;}
+.barra{display: flex;justify-content: space-between;align-items: flex-end;padding-top: 3rem;}
+.contenido-header h1{color: white;padding-bottom: 10rem;max-width: 60rem;line-height: 1.5;}
+.iconos-nosotros{display: flex;justify-content: space-between;}
+.icono{flex-basis: 33.33%;padding: 1rem;text-align: center;}
+.icono h3{text-transform: uppercase;}
+.contenedor-anuncios{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.anuncio{flex: 0 0 31.5%;margin: 1rem;border: 1px solid #b5b5b5;background: #f5f5f5;}
+.contenido-anuncio{padding: 2rem;}
 .contenido-anuncio p, .contenido-anuncio h3 {margin: 0;}
 .precio{color: #71b100; font-weight: 700;}
 .ver-todas{display: flex;justify-content: flex-end;}
-.imagen-contacto{
-    background: url(../img/encuentra.jpg) center center;
-    background-size: cover;
-    height: 40rem;
-    display: flex;
-    align-items: center;
-}
+.imagen-contacto{background: url(../img/encuentra.jpg) center center;background-size: cover;height: 40rem;display: flex;align-items: center;}
 .contenido-contacto{color: white;}
 .contenido-contacto p{font-size: 1.8rem;}
-.iconos-caracteristicas{list-style: none; padding: 0;display: flex;}
-.iconos-caracteristicas li{flex: 1;display: flex;}
-.iconos-caracteristicas li img{margin-right: 2rem;justify-content: space-evenly;}
+.iconos-caracteristicas{list-style: none; padding: 0;display: flex;justify-content: space-evenly;flex: 1; max-width: 500px;}
+.iconos-caracteristicas li{/*flex: 1;*/display: flex;}
+.iconos-caracteristicas li img{margin-right: 2rem;}
+.seccion-inferior{display: flex;justify-content: space-between;}
+.seccion-inferior .blog{flex-basis: 60%;}
+.seccion-inferior .testimoniales{flex-basis: 40%;}
+.entrada-blog{display: flex;justify-content: space-between;margin-bottom: 2rem;}
+.entrada-blog:last-of-type{margin-bottom: 0;}
+.entrada-blog .imagen{flex-basis: 40%;}
+.entrada-blog .txt-entrada{flex: 60%;margin: 0 3rem 0 2rem }
+.txt-entrada a{color: #000; text-decoration: none;}
+.txt-entrada h4{margin: 0;line-height: 1.4;}
+.txt-entrada h4::after{content: ''; display: block; width: 15rem; height: .5rem; background: #71b100;margin-top: 1rem;}
+.txt-entrada span{color: #e08709;}
+.testimonial{background: #71b100;font-size: 2.4rem; color: white;padding: 2rem;border-radius: .5rem;}
+.testimonial p{text-align: right;}
+.testimonial blockquote{position: relative;padding-left: 3rem;}
+.testimonial blockquote::before{content: '';background: url('../img/comilla.svg');width: 4rem;height: 4rem;position: absolute;left: -3rem;}
+.site-footer{background: #333;margin:0}
+.contenedor-footer{padding: 3rem 0;display:flex;justify-content: space-between;}
+.copyright{margin: 0;color:white}
+
+.contenido-nosotros{display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 3rem;}
+.txt-nosotros blockquote{font-weight: 900; font-size: 2rem; margin: 0;padding:1rem 0 2rem 0;}
+
+.contenido-centrado{max-width: 800px;text-align: justify;}
+.resumen-propiedad{display: flex;justify-content: space-between;align-items: center;}
